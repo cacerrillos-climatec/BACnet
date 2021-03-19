@@ -413,6 +413,8 @@ namespace System.IO.BACnet
         /* ReadPropertyMultiple services or services not defined in this standard. */
         /* Enumerated values 0-511 are reserved for definition by ASHRAE.  */
         /* Enumerated values 512-4194303 may be used by others subject to the  */
+        PROP_PROPRIETARY_1135 = 1135,
+        PROP_PROPRIETARY_1136 = 1136,
         /* procedures and constraints described in Clause 23.  */
         /* do the max range inside of enum so that
            compilers will allocate adequate sized datatype for enum
